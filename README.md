@@ -17,6 +17,8 @@ The script also leverages threading to speed up the crawling process.
 # How the Code Works
 
 ```
+================================
+
 The provided code is designed to crawl web pages, extract their HTML content, convert this content into MD5 hashes, and then use these hashes to monitor changes in the HTML over time. Here's how it achieves this:
 
 1. Crawling and Extracting Link:
@@ -43,6 +45,8 @@ The provided code is designed to crawl web pages, extract their HTML content, co
 5. Output Results:
    - The script writes the results of the comparison (whether the content has changed or not) to a results file, along with the corresponding URLs and MD5 hashes.
    - This output helps in easily identifying which pages have undergone changes.
+
+================================
 ```
 
 
