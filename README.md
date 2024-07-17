@@ -9,7 +9,9 @@
 # Overview
 
 ```
-This script is designed to crawl and secure websites by extracting links and generating MD5 hashes of their HTML content. It includes functionality for crawling websites, checking if a file has changed based on its MD5 hash, and matching links from a file. The script also leverages threading to speed up the crawling process.
+This script is designed to crawl and secure websites by extracting links and generating MD5 hashes of their HTML content. 
+It includes functionality for crawling websites, checking if a file has changed based on its MD5 hash, and matching links from a file. 
+The script also leverages threading to speed up the crawling process.
 ```
 
 # How the Code Works
