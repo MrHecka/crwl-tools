@@ -61,5 +61,7 @@ The provided code is designed to crawl web pages, extract their HTML content, co
 4. Then follow the steps that have been instructed
 ```
 
-# License
-![LICENSE](https://github-production-user-asset-6210df.s3.amazonaws.com/45759837/292222072-1c0ace01-95e0-4bcd-a7ce-b5e2765084e5.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240717%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240717T085914Z&X-Amz-Expires=300&X-Amz-Signature=f6fb44d404eba3220d656d802792c706eb0c3cc4d0937a553f6c9fc9efdb07a1&X-Amz-SignedHeaders=host&actor_id=71875420&key_id=0&repo_id=734361155)
+## Miscellaneous
+
+- **Contributions**: Feel free to explore and customize Big Dorker according to your needs and preferences. You can also contribute to this project by submitting bug reports, feature requests, or code enhancements through GitHub.
+- **License**: This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
