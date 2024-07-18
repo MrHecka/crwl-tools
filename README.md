@@ -10,8 +10,8 @@
 
 ```
 This script is designed to crawl and secure websites by extracting links and generating MD5 hashes of their HTML content. 
-It includes functionality for crawling websites, checking if a file has changed based on its MD5 hash, and matching links from a file. 
-The script also leverages threading to speed up the crawling process.
+It includes functionality for crawling websites, checking if a file has changed based on its MD5 hash, 
+and matching links from a file. The script also leverages threading to speed up the crawling process.
 ```
 
 # How the Code Works
@@ -19,7 +19,9 @@ The script also leverages threading to speed up the crawling process.
 ```
 ================================
 
-The provided code is designed to crawl web pages, extract their HTML content, convert this content into MD5 hashes, and then use these hashes to monitor changes in the HTML over time. Here's how it achieves this:
+The provided code is designed to crawl web pages, extract their HTML content, 
+convert this content into MD5 hashes, and then use these hashes to monitor changes in the HTML over time. 
+Here's how it achieves this:
 
 1. Crawling and Extracting Link:
    - The script starts by crawling a list of websites provided in a text file.
@@ -50,21 +52,23 @@ The provided code is designed to crawl web pages, extract their HTML content, co
 ```
 
 
-# Requirements
+
+# How to use & Requirements
 
 ```
-1. Install python 3
-2. Install module requests / running command "pip install -r requirements.txt"
-3. Input all links needed into .txt file
-```
-
-# How to use
-
-```
-1. Download this repo
+1. Download this repo and don't forget to install python 3
 2. pip install -r requirements.txt
 3. Running python3 crwl.py -h (for help commands)
-4. Then follow the steps that have been instructed
+4. Input all links needed into .txt file (ex : links.txt)
+5. Then follow the steps that have been instructed
+```
+
+# Usage
+```
+
+Example 1 : py crwl.py --crawl links.txt --thread 50 # crawling and save url website then encode to md5 hash.
+Example 2 : py crwl.py --check ./crawl/2024-07-18.txt --thread 50 # check if md5 encode has matched with current md5.
+
 ```
 
 ## Miscellaneous

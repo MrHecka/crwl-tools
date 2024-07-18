@@ -171,9 +171,9 @@ def main():
 """, 'red'))
 
     parser = argparse.ArgumentParser(description=colored("List Commands :", 'white'))
-    parser.add_argument('--crawl', type=str, help=colored("Crawl and save links into txt file - (.txt file without https/http contains).", 'blue'))
-    parser.add_argument('--check', type=str, help=colored("Check if file has changed or not (md5 match) - (.txt file).", 'blue'))
-    parser.add_argument('--thread', type=str, help=colored("Number of threads.", 'blue'))
+    parser.add_argument('-c','--crawl', type=str, help=colored("Crawl and save links into txt file - (.txt file without https/http contains).", 'blue'))
+    parser.add_argument('-ck','--check', type=str, help=colored("Check if file has changed or not (md5 match) - (.txt file).", 'blue'))
+    parser.add_argument('-t','--thread', type=str, help=colored("Number of threads.", 'blue'))
     args = parser.parse_args()
 
     my_Thread=10
