@@ -75,3 +75,9 @@ Example 2 : py crwl.py --check ./crawl/2024-07-18.txt --thread 50 # check if md5
 
 - **Contributions**: Feel free to explore and customize Big Dorker according to your needs and preferences. You can also contribute to this project by submitting bug reports, feature requests, or code enhancements through GitHub.
 - **License**: This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+
+## Donate
+* [`Saweria`](https://saweria.co/heckayo)
+
+---------
